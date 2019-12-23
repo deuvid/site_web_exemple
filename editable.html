@@ -1,0 +1,720 @@
+<!DOCTYPE html><html lang="fr"><head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.10">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/front-end.js" data-silex-static=""></script>
+    <!-- Normalize -->
+    <link href="https://editor.silex.me/static/2.10/normalize.css" rel="stylesheet" data-silex-static="">
+    <!-- Silex style -->
+    <link href="https://editor.silex.me/static/2.10/front-end.css" rel="stylesheet" data-silex-static="">
+
+    <style type="text/css" class="silex-style">h1 {text-shadow: 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 5px #fefffd, 0 0 10px #fefffd, 0 0 10px #fefffd, 0 0 10px #fefffd;}.nav a {padding: 20px;}</style>
+    <script type="text/javascript" class="silex-script"></script>
+    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgb(159, 141, 103); background-image: url(../../../../dropbox/get/site_l%C3%A9a/lumber-84678_1920-1100x715.jpg); background-position-x: 50%; background-position-y: 50%; background-size: cover;}.silex-id-1552774272342-11 {}@media only screen and (max-width: 480px) {.silex-id-1552774272342-11 {top: 0px; left: 0px;}}.silex-id-1552774272339-10 {min-height: 100px;}@media only screen and (max-width: 480px) {.silex-id-1552774272339-10 {min-height: 41px;}}.silex-id-1484949224320-1 {min-height: 100px; top: 0px; left: 0px; background-color: transparent;}.silex-id-1484949224320-0 {min-height: 234px; background-color: transparent; top: 0px; left: 0px;}.silex-id-1552774225668-8 {min-height: 27px; width: 33px; background-color: transparent; top: 100px; left: 686px;}@media only screen and (max-width: 480px) {.silex-id-1552774225668-8 {left: 0px; top: 0px; min-height: 27px; width: 33px;}}.silex-id-1552774237438-9 {width: 100px; min-height: 100px; background-color: rgb(255, 255, 255); top: 100px; left: 653px;}@media only screen and (max-width: 480px) {.silex-id-1552774237438-9 {left: 121px; top: 2px; width: 295px; min-height: 23px; background-color: transparent;}}.silex-id-1424710230648 {background-color: rgb(254, 255, 253); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); left: 0px; top: 174px; width: 960px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; min-height: 32px;}.silex-id-1434634286306-0 {background-color: transparent; left: 492px; top: 0px; width: 120px; min-height: 30px;}.silex-id-1434425184890-0 {left: -18px; top: 0px; width: 147px; min-height: 46px;}.silex-id-1434634331833-2 {background-color: transparent; left: 827px; top: 0px; width: 121px; min-height: 30px;}.silex-id-1434634331834-3 {left: 8px; top: 0px; width: 106px; min-height: 46px;}.silex-id-1424710332527 {left: 20px; top: 0px; width: 106px; min-height: 46px; background-color: transparent;}.silex-id-1577114028335-15 {left: 636px; top: 0px; width: 163px; min-height: 30px;}.silex-id-1577096268145-10 {width: 387px; min-height: 160px; top: -4.76837158203125e-7px; left: -1.000030517578125px;}.silex-id-1484949486466-5 {top: 294px; left: 5px; background-color: transparent;}.silex-id-1484949486465-4 {min-height: 948.375px; background-color: transparent; top: 0px; left: 0px;}.silex-id-1577093796173-3 {width: 312px; min-height: 207px; top: 33px; left: 298px; border-width: 10px 10px 10px 10px; border-style: solid; border-color: rgba(255,255,255,1);}.silex-id-1424920356950 {background-color: rgb(254, 255, 253); border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; left: 641px; top: 33px; width: 295px; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 464px;}@media only screen and (max-width: 480px) {.silex-id-1424920356950 {width: 450px; min-height: 338px;}}.silex-id-1577095949325-7 {width: 311px; min-height: 221px; top: 275px; left: 298px; border-width: 10px 10px 10px 10px; border-style: solid; border-color: rgba(255,255,255,1);}.silex-id-1424921460631 {left: -1px; top: 566px; width: 177px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 257px;}@media only screen and (max-width: 480px) {.silex-id-1424921460631 {min-height: 100px; width: 450px;}}.silex-id-1577096055137-8 {width: 391px; min-height: 79px; top: 853px; left: 255px;}@media only screen and (max-width: 480px) {.silex-id-1577096055137-8 {min-height: 78px; top: 12px; left: -1.518747329711914px; width: 390px;}}.silex-id-1434426151026-1 {width: 729px; top: 566px; left: 210px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 262px;}@media only screen and (max-width: 480px) {.silex-id-1434426151026-1 {width: 450px; min-height: 774px; top: 0px; left: 0px;}}.silex-id-1577093688504-2 {width: 256px; min-height: 256px; top: 138px; left: 15px; border-width: 10px 10px 10px 10px; border-style: solid; border-color: rgba(255,255,255,1);}.silex-id-1484949640479-7 {top: 294px; left: 5px; background-color: transparent;}@media only screen and (max-width: 480px) {.silex-id-1484949640479-7 {top: 422px; left: 0px;}}.silex-id-1484949640479-6 {min-height: 447px; background-color: transparent; top: 0px; left: 0px;}@media only screen and (max-width: 480px) {.silex-id-1484949640479-6 {min-height: 2103px; top: 0px; left: 12px; width: 445px;}}.silex-id-1577102976628-16 {width: 193px; min-height: 193px; top: 20px; left: 2px; border-width: 10px 10px 10px 10px; border-style: double; border-color: rgba(0,0,0,1);}.silex-id-1434426485665-3 {width: 723px; top: 20px; left: 215px; background-color: rgb(254, 255, 253); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(254, 255, 253); border-right-color: rgb(254, 255, 253); border-bottom-color: rgb(254, 255, 253); border-left-color: rgb(254, 255, 253); min-height: 190px;}@media only screen and (max-width: 480px) {.silex-id-1434426485665-3 {width: 423px; top: 190px; left: 1px; min-height: 728px;}}.silex-id-1577103031504-17 {min-height: 179px; width: 458px; background-color: transparent; top: 256px; left: 30px;}.silex-id-1538167171167-15 {min-width: 960px; top: 740px; left: 5px;}@media only screen and (max-width: 480px) {.silex-id-1538167171167-15 {top: 422px; left: 0px;}}.silex-id-1538167171162-14 {min-height: 452px; top: 0px; left: 0px;}@media only screen and (max-width: 480px) {.silex-id-1538167171162-14 {top: 0px; left: 12px; width: 455px; min-height: 753px;}}.silex-id-1577109778230-4 {width: 400px; height: 400px; background-color: transparent; top: 17px; left: 521px;}.silex-id-1577110297509-5 {height: 400px; width: 400px; background-color: transparent; top: 2px; left: 50px;}.silex-id-1538167211265-17 {top: 761px; left: 5px;}@media only screen and (max-width: 480px) {.silex-id-1538167211265-17 {top: 422px; left: 0px;}}.silex-id-1577102651651-13 {}.silex-id-1577102651587-12 {min-height: 20px; top: 0px; left: 0px;}.silex-id-1577117212731-22 {}.silex-id-1577117212673-21 {min-height: 431px; top: 0px; left: 0px;}.silex-id-1577122950851-25 {}.silex-id-1577122950698-24 {min-height: 540px; top: -59px; left: 0px;}.silex-id-1577122970214-26 {height: 466px; width: 868px; background-color: transparent; top: 16px; left: 43px;}.silex-id-1484949434473-3 {top: 1354px; left: 0px; background-color: transparent; min-width: 960px;}@media only screen and (max-width: 480px) {.silex-id-1484949434473-3 {top: 2555px; left: 0px;}}.silex-id-1484949434473-2 {min-height: 41px; background-color: rgba(255,255,255,1); top: 20px; left: 0px;}@media only screen and (max-width: 480px) {.silex-id-1484949434473-2 {top: 0px; left: 0px; width: 453px; min-height: 247px;}}.silex-id-1577114229103-16 {left: 87px; top: 0px; width: 758px; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); min-height: 57px; background-color: transparent;}@media only screen and (max-width: 480px) {.silex-id-1577114229103-16 {top: 8px; left: 0px; width: 423px; min-height: 169px;}}</style>
+
+
+
+
+
+
+
+
+
+
+    <title>La riposte </title>
+    <meta name="description" content="The description displayed in search results">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Check this site, friends!">
+    <meta name="og:title" content="Check this site, friends!">
+    <meta name="twitter:description" content="The description displayed in social networks">
+    <meta name="og:description" content="The description displayed in social networks">
+    <meta name="twitter:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="og:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="twitter:site" content="@silexlabs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/json" class="silex-json-styles">[{"fonts":[{"family":"Gill Sans Nova Light ","href":"https://fonts.googleapis.com/css?family=Roboto"},{"family":"Gill Sans MT","href":"../../../../dropbox/get/site_l%C3%A9a/Gill%20Sans%20MT"}],"desktop":{"body-initial":{"background-color":"rgb(159, 141, 103)","background-image":"url(../../../../dropbox/get/site_l%C3%A9a/lumber-84678_1920-1100x715.jpg)","background-position-x":"50%","background-position-y":"50%","background-size":"cover","top":"","left":"","border-width":"","border-style":""},"silex-id-1424920356950":{"background-color":"rgb(254, 255, 253)","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-width":"10px","border-right-width":"10px","border-bottom-width":"10px","border-left-width":"10px","left":"641px","top":"33px","width":"295px","border-top-color":"rgb(254, 255, 253)","border-right-color":"rgb(254, 255, 253)","border-bottom-color":"rgb(254, 255, 253)","border-left-color":"rgb(254, 255, 253)","min-height":"464px"},"silex-id-1424710230648":{"background-color":"rgb(254, 255, 253)","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","left":"0px","top":"174px","width":"960px","border-top-left-radius":"5px","border-top-right-radius":"5px","border-bottom-right-radius":"0px","border-bottom-left-radius":"0px","min-height":"32px"},"silex-id-1424710332527":{"left":"20px","top":"0px","width":"106px","min-height":"46px","background-color":"transparent"},"silex-id-1434425184890-0":{"left":"-18px","top":"0px","width":"147px","min-height":"46px"},"silex-id-1434634286306-0":{"background-color":"transparent","left":"492px","top":"0px","width":"120px","min-height":"30px"},"silex-id-1434634331833-2":{"background-color":"transparent","left":"827px","top":"0px","width":"121px","min-height":"30px"},"silex-id-1434634331834-3":{"left":"8px","top":"0px","width":"106px","min-height":"46px"},"silex-id-1424921460631":{"left":"-1px","top":"566px","width":"177px","background-color":"rgb(254, 255, 253)","border-top-width":"10px","border-right-width":"10px","border-bottom-width":"10px","border-left-width":"10px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(254, 255, 253)","border-right-color":"rgb(254, 255, 253)","border-bottom-color":"rgb(254, 255, 253)","border-left-color":"rgb(254, 255, 253)","min-height":"257px"},"silex-id-1434426151026-1":{"width":"729px","top":"566px","left":"210px","background-color":"rgb(254, 255, 253)","border-top-width":"10px","border-right-width":"10px","border-bottom-width":"10px","border-left-width":"10px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(254, 255, 253)","border-right-color":"rgb(254, 255, 253)","border-bottom-color":"rgb(254, 255, 253)","border-left-color":"rgb(254, 255, 253)","min-height":"262px"},"silex-id-1434426485665-3":{"width":"723px","top":"20px","left":"215px","background-color":"rgb(254, 255, 253)","border-top-width":"10px","border-right-width":"10px","border-bottom-width":"10px","border-left-width":"10px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(254, 255, 253)","border-right-color":"rgb(254, 255, 253)","border-bottom-color":"rgb(254, 255, 253)","border-left-color":"rgb(254, 255, 253)","min-height":"190px"},"silex-id-1484949224320-0":{"min-height":"234px","background-color":"transparent","top":"0px","left":"0px"},"silex-id-1484949224320-1":{"min-height":"100px","top":"0px","left":"0px","background-color":"transparent"},"silex-id-1484949434473-2":{"min-height":"41px","background-color":"rgba(255,255,255,1)","top":"20px","left":"0px"},"silex-id-1484949434473-3":{"top":"1354px","left":"0px","background-color":"transparent","min-width":"960px"},"silex-id-1484949486465-4":{"min-height":"948.375px","background-color":"transparent","top":"0px","left":"0px"},"silex-id-1484949486466-5":{"top":"294px","left":"5px","background-color":"transparent"},"silex-id-1484949640479-6":{"min-height":"447px","background-color":"transparent","top":"0px","left":"0px"},"silex-id-1484949640479-7":{"top":"294px","left":"5px","background-color":"transparent"},"silex-id-1484949717486-8":{"min-height":"345px","background-color":"transparent"},"silex-id-1538166479194-9":{"width":"","background-color":"","min-height":"100px"},"silex-id-1538166900880-12":{"min-height":"324px","background-color":"transparent","top":"15px","left":"347px","width":"960px"},"silex-id-1538167171162-14":{"background-color":"","min-height":"452px","top":"0px","left":"0px"},"silex-id-1538167171167-15":{"min-width":"960px","top":"740px","left":"5px"},"silex-id-1538167211265-17":{"top":"761px","left":"5px"},"silex-id-1552774225668-8":{"min-height":"27px","width":"33px","background-color":"transparent","top":"100px","left":"686px"},"silex-id-1552774237438-9":{"width":"100px","min-height":"100px","background-color":"rgb(255, 255, 255)","top":"100px","left":"653px"},"silex-id-1552774272339-10":{"width":"","min-height":"100px","background-color":""},"silex-id-1552774272342-11":{},"silex-id-1577093688504-2":{"width":"256px","min-height":"256px","top":"138px","left":"15px","border-width":"10px 10px 10px 10px ","border-style":"solid","border-color":"rgba(255,255,255,1)"},"silex-id-1425063401661":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1425063529504":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1425063611139":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577093796173-3":{"width":"312px","min-height":"207px","top":"33px","left":"298px","border-width":"10px 10px 10px 10px ","border-style":"solid","border-color":"rgba(255,255,255,1)"},"silex-id-1471343044963-3":{"min-height":"98px","top":"0px","left":"0px","width":"293px"},"silex-id-1577094523812-4":{"min-height":"30px","top":"0px","left":"0px","width":"71px"},"silex-id-1577094592394-5":{"min-height":"0px","top":"293px","left":"100px","width":"0px"},"silex-id-1577094626064-6":{"height":"561px","top":"0px","left":"0px","width":"400px"},"silex-id-1577095949325-7":{"width":"311px","min-height":"221px","top":"275px","left":"298px","border-width":"10px 10px 10px 10px ","border-style":"solid","border-color":"rgba(255,255,255,1)"},"silex-id-1577096055137-8":{"width":"391px","min-height":"79px","top":"853px","left":"255px"},"silex-id-1577096268145-10":{"width":"387px","min-height":"160px","top":"-4.76837158203125e-7px","left":"-1.000030517578125px"},"silex-id-1424647173853":{"min-height":"197px","top":"0px","left":"0px","width":"573px"},"silex-id-1424647165395":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577096758643-11":{"min-height":"27px","top":"0px","left":"0px","width":"50px"},"silex-id-1577102651587-12":{"min-height":"20px","background-color":"","top":"0px","left":"0px"},"silex-id-1577102651651-13":{},"silex-id-1577102845915-15":{"min-height":"50px","top":"1300px","left":"100px","width":"44px"},"silex-id-1434426787582-9":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1434426485636-2":{"min-height":"107px","top":"0px","left":"0px","width":"6px"},"silex-id-1577102976628-16":{"width":"193px","min-height":"193px","top":"20px","left":"2px","border-width":"10px 10px 10px 10px ","border-style":"double","border-color":"rgba(0,0,0,1)"},"silex-id-1577103031504-17":{"min-height":"179px","width":"458px","background-color":"transparent","top":"256px","left":"30px"},"silex-id-1434426613658-6":{"min-height":"157px","top":"0px","left":"0px","width":"957px"},"silex-id-1434426613625-5":{"min-height":"134px","top":"0px","left":"0px","width":"122px"},"silex-id-1434634286307-1":{"min-height":"30px","top":"0px","left":"0px","width":"160px"},"silex-id-1577093387768-1":{"min-height":"30px","top":"0px","left":"0px","width":"135px"},"silex-id-1577104210849-21":{"min-height":"57px","top":"0px","left":"0px","width":"92px"},"silex-id-1577093385214-0":{"min-height":"27px","top":"0px","left":"0px","width":"67px"},"silex-id-1577104076161-18":{"min-height":"30px","top":"0px","left":"0px","width":"160px"},"silex-id-1577106527055-23":{"min-height":"92px","top":"0px","left":"0px","width":"126px"},"silex-id-1577106557165-24":{"min-height":"92px","top":"0px","left":"0px","width":"126px"},"silex-id-1577106579613-25":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577106633211-26":{"min-height":"92px","top":"0px","left":"0px","width":"126px"},"silex-id-1577104240574-22":{"min-height":"122px","top":"0px","left":"0px","width":"202px"},"silex-id-1577107069509-27":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577107165112-28":{"min-height":"57px","top":"0px","left":"0px","width":"109px"},"silex-id-1577107505069-29":{"min-height":"57px","top":"0px","left":"0px","width":"92px"},"silex-id-1577107527615-30":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577096156837-9":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577109719806-0":{"min-height":"57px","top":"0px","left":"0px","width":"92px"},"silex-id-1538166900880-13":{"min-height":"98px","top":"0px","left":"0px","width":"308px"},"silex-id-1577109778230-4":{"width":"400px","height":"400px","background-color":"transparent","top":"17px","left":"521px"},"silex-id-1426536866650":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577110297509-5":{"height":"400px","width":"400px","background-color":"transparent","top":"2px","left":"50px"},"silex-id-1577109753526-3":{"height":"388px","top":"0px","left":"0px","width":"368px"},"silex-id-1577112257582-10":{"min-height":"57px","top":"0px","left":"0px","width":"619px"},"silex-id-1425063986632":{"min-height":"57px","top":"0px","left":"0px","width":"619px"},"silex-id-1577112327454-12":{"min-height":"57px","top":"0px","left":"0px","width":"619px"},"silex-id-1577113619515-13":{"min-height":"57px","top":"0px","left":"0px","width":"92px"},"silex-id-1577113657966-14":{"min-height":"57px","top":"0px","left":"0px","width":"109px"},"silex-id-1424710433398":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1577114028335-15":{"left":"636px","top":"0px","width":"163px","min-height":"30px"},"silex-id-1577107549228-31":{"min-height":"46px","top":"0px","left":"0px","width":"172px"},"silex-id-1577114229103-16":{"left":"87px","top":"0px","width":"758px","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","min-height":"57px","background-color":"transparent"},"silex-id-1577112262688-11":{"min-height":"57px","top":"0px","left":"0px","width":"619px"},"silex-id-1577112236358-8":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1577112223718-6":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1538167211260-16":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1577116903633-19":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1577116892121-17":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1577117212673-21":{"min-height":"431px","background-color":"","top":"0px","left":"0px"},"silex-id-1577117212731-22":{},"silex-id-1577117226720-23":{"min-height":"57px","top":"0px","left":"0px","width":"608px"},"silex-id-1577122950698-24":{"min-height":"540px","background-color":"","top":"-59px","left":"0px"},"silex-id-1577122950851-25":{},"silex-id-1577122970214-26":{"height":"466px","width":"868px","background-color":"transparent","top":"16px","left":"43px"}},"mobile":{"silex-id-1434426485665-3":{"width":"423px","top":"190px","left":"1px","min-height":"728px"},"silex-id-1424920356950":{"width":"450px","min-height":"338px"},"silex-id-1434426151026-1":{"width":"450px","min-height":"774px","top":"0px","left":"0px"},"silex-id-1424921460631":{"min-height":"100px","width":"450px"},"silex-id-1552774225668-8":{"left":"0px","top":"0px","min-height":"27px","width":"33px"},"silex-id-1552774237438-9":{"left":"121px","top":"2px","width":"295px","min-height":"23px","background-color":"transparent"},"silex-id-1552774272342-11":{"top":"0px","left":"0px"},"silex-id-1552774272339-10":{"min-height":"41px"},"silex-id-1538167171162-14":{"top":"0px","left":"12px","width":"455px","min-height":"753px"},"silex-id-1484949434473-2":{"top":"0px","left":"0px","width":"453px","min-height":"247px"},"silex-id-1538167171167-15":{"top":"422px","left":"0px"},"silex-id-1538167211265-17":{"top":"422px","left":"0px"},"silex-id-1484949640479-7":{"top":"422px","left":"0px"},"silex-id-1484949640479-6":{"min-height":"2103px","top":"0px","left":"12px","width":"445px"},"silex-id-1484949434473-3":{"top":"2555px","left":"0px"},"silex-id-1577096055137-8":{"min-height":"78px","top":"12px","left":"-1.518747329711914px","width":"390px"},"silex-id-1577114229103-16":{"top":"8px","left":"0px","width":"423px","min-height":"169px"}},"prodotypeData":{"component":{"silex-id-1552774225668-8":{"name":"hamburger1","templateName":"hamburger","links":[{"properties":{"href":"#!page-home"},"text":"Home"},{"properties":{"href":"#!page-moi","title":"Moi"},"text":"Menu"},{"properties":{"href":"#!page-concurence"},"text":"concurence"},{"properties":{"href":"#!page-info"},"text":"Info"}],"button-background-color":"#000000"},"silex-id-1577103031504-17":{"name":"skill-bars1","templateName":"skill-bars","bars":[{"label":"formation de basse","percentage":"100"},{"label":"volonté","percentage":"100"},{"label":"connaissance de entrepreneuriat ","value":"en cours "}],"labelSize":"50","speed":"5998"},"silex-id-1577109778230-4":{"name":"form2","templateName":"form","sendTo":"david.wehrung@lilo.org","submitButtonLabel":"Envoyer","label1":"Votre Nom et  Prénom","placeholder1":"Nom / Prénom","label2":"Votre adresse mail","label3":"Votre Message","placeholder3":"Je suis à votre écoute "},"silex-id-1577110297509-5":{"name":"map1","templateName":"map","url":"https://www.openstreetmap.org/#map=18/45.02386/5.13677&layers=C"},"silex-id-1577122970214-26":{"name":"slideshow1","templateName":"slideshow","slides":[{"image":[{"url":"/ce/dropbox/get/site_léa/drome.png","modified":"2019-12-23T09:48:54Z","name":"drome.png","size":2719788,"mime":"image/png","path":"","absPath":"","folder":"","service":"","isDir":true}],"text":"tous"},{"image":[{"url":"/ce/dropbox/get/site_léa/drome_bio.png","modified":"2019-12-23T13:47:25Z","name":"drome_bio.png","size":2563886,"mime":"image/png","path":"","absPath":"","folder":"","service":"","isDir":true}],"text":"bio "},{"image":[{"url":"/ce/dropbox/get/site_léa/drome_auto.png","modified":"2019-12-23T13:47:25Z","name":"drome_auto.png","size":2537710,"mime":"image/png","path":"","absPath":"","folder":"","service":"","isDir":true}],"text":"bio &  automne"}],"autoplay":true,"arrows":false}},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All Style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal","Link":{"font-family":"","text-decoration":"none","color":"#000000"},"All":{"font-family":"'Cabin', Helvetica, Arial, sans-serif"},"Heading1":{"font-family":"'Lobster', Georgia, Times, serif","font-size":"80px","text-align":"center","transition":[{}],"column-rule-style":"none","gradient":{"colors":[{}]},"font-weight":"bold"},"Heading2":{"font-family":"'Lobster', Georgia, Times, serif","text-align":"center"},"Heading3":{"font-family":"'Lobster', Georgia, Times, serif","text-align":"center"},"Paragraph":{"line-height":"25px"},"Active":{"color":"","background-color":""},"Element":{"gradient":{"colors":[{"color":"#ffffff"}]}}},":active":{"templateName":"text","className":"all-style","pseudoClass":":active","Heading1":{}}},"mobile":{"normal":{"templateName":"text","className":"all-style","pseudoClass":"normal","All":{"font-size":"25px","line-height":""},"Paragraph":{"letter-spacing":"3px","line-height":"30px"}}}}},"nav":{"className":"nav","templateName":"text","displayName":"nav","styles":{"desktop":{"normal":{"className":"nav","pseudoClass":"normal","All":{"text-align":"center","font-size":"14px","font-weight":"bold","line-height":"27px","letter-spacing":"2px"},"Link":{"text-decoration":"none","line-height":"30px","transition":[{}],"text-align":"center"},"Active":{"color":"#fefffd","background-color":"#3D362D"},"Heading1":{"gradient":{"colors":[{}]}},"Element":{"gradient":{"colors":[]}}}},"mobile":{"normal":{"templateName":"text","className":"nav","pseudoClass":"normal","UnorderedList":{"list-style-type":"none","font-size":"2em","line-height":"2"},"Link":{"line-height":"80px"}}}}},"header":{"className":"header","templateName":"text","displayName":"header","styles":{"desktop":{"normal":{"className":"header","pseudoClass":"normal","All":{"line-height":"2"}}}}},"footer":{"className":"footer","templateName":"text","displayName":"footer","styles":{"desktop":{"normal":{"className":"footer","pseudoClass":"normal","All":{"color":"","text-align":"center"},"Link":{"color":"#000000"}}}}},"caption":{"className":"caption","templateName":"text","displayName":"caption","styles":{"desktop":{"normal":{"className":"caption","pseudoClass":"normal","All":{"color":"","text-align":"center"},"Link":{"color":"#000000"}}}}}}}}]</script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h1 {font-family: 'Lobster', Georgia, Times, serif; font-weight: bold; font-size: 80px; text-align: center; column-rule-style: none; background: linear-gradient(); -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease;}h2 {font-family: 'Lobster', Georgia, Times, serif; text-align: center;}h3 {font-family: 'Lobster', Georgia, Times, serif; text-align: center;}.text-element > .silex-element-content {font-family: 'Cabin', Helvetica, Arial, sans-serif;}p {line-height: 25px;}a {color: #000000; text-decoration: none;}[data-silex-href] {color: #000000; text-decoration: none;}.editable-style {background: linear-gradient(#ffffff);}@media only screen and (max-width: 480px) {.text-element > .silex-element-content {font-size: 25px;}p {line-height: 30px; letter-spacing: 3px;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="nav">.nav h1 {background: linear-gradient();}.nav.text-element > .silex-element-content {font-weight: bold; font-size: 14px; text-align: center; line-height: 27px; letter-spacing: 2px;}.nav a {text-decoration: none; text-align: center; line-height: 30px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease;}.nav [data-silex-href] {text-decoration: none; text-align: center; line-height: 30px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease;}.nav .page-link-active {color: #fefffd; background-color: #3D362D;}.nav.editable-style {}@media only screen and (max-width: 480px) {.nav a {line-height: 80px;}.nav [data-silex-href] {line-height: 80px;}.nav ul li {list-style-type: none; font-size: 2em; line-height: 2;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="footer">.footer.text-element > .silex-element-content {text-align: center;}.footer a {color: #000000;}.footer [data-silex-href] {color: #000000;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="caption">.caption.text-element > .silex-element-content {text-align: center;}.caption a {color: #000000;}.caption [data-silex-href] {color: #000000;}</style><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="962"><style type="text/css" class="silex-style-settings">.website-width {width: 962px;}</style><meta name="hostingProvider" content="ghpages"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><link href="../../../../dropbox/get/site_l%C3%A9a/Gill%20Sans%20MT" rel="stylesheet" class="silex-custom-font"><script src="/static/2.7/osm/ol.js" data-silex-static="" data-dependency=""></script><script src="/static/2.7/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script><link rel="stylesheet" href="/static/2.7/unslider/unslider.css" data-silex-static="" data-dependency=""></head>
+
+<body data-silex-id="body-initial" class="body-initial all-style enable-mobile prevent-draggable prevent-resizable prevent-selectable silex-runtime" data-silex-type="container-element" style=""><div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1552774272342-11 section-element hide-on-desktop prevent-resizable" data-silex-id="silex-id-1552774272342-11"><div data-silex-type="container-element" class="editable-style silex-id-1552774272339-10 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1552774272339-10"></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="silex-pages">
+        
+
+        <a id="page-home" data-silex-type="page-element" class="page-element" href="#!page-home">Home</a><a id="page-moi" data-silex-type="page-element" class="page-element" href="#!page-moi">MOI</a><a class="page-element" data-silex-type="page-element" id="page-concurence" href="#!page-concurence">CONCURENCE</a><a class="page-element" data-silex-type="page-element" id="page-info" href="#!page-info">Info</a><a id="page-buisines" href="#!page-buisines" data-silex-type="page-element" class="page-element">BUISINES</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1484949224320-1 section-element prevent-resizable website-min-width" data-silex-id="silex-id-1484949224320-1">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949224320-0 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949224320-0" style=""><div data-silex-type="text-element" class="editable-style silex-id-1552774225668-8 text-element prevent-resizable silex-component hide-on-desktop prevent-auto-z-index mobile-menu nav" data-silex-id="silex-id-1552774225668-8" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1577102614703_966 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1577102614703_966 nav {left: -9999px;}.hamburger-menu_1577102614703_966 nav ul {margin-top: 80px;}.hamburger-menu_1577102614703_966 nav {opacity: 0; position: absolute; background-color: #ededed; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1577102614703_966.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1577102614703_966 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1577102614703_966.open .nav-container {}.hamburger-menu_1577102614703_966 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1577102614703_966 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1577102614703_966.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1577102614703_966 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1577102614703_966.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1577102614703_966.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1577102614703_966 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1577102614703_966.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1577102614703_966 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="#!page-home" class="">Home</a></li>
+            
+                <li><a href="#!page-moi" title="Moi" class="">Menu</a></li>
+            
+                <li><a href="#!page-concurence" class="">concurence</a></li>
+            
+                <li><a href="#!page-info" class="">Info</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1577102614703_966').removeClass('open');
+    $('.hamburger-menu_1577102614703_966').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1577102614703_966').addClass('open');
+    $('.hamburger-menu_1577102614703_966').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1577102614703_966').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1577102614703_966 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1577102614703_966 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div><div data-silex-type="container-element" class="editable-style silex-id-1552774237438-9 container-element hide-on-desktop" data-silex-id="silex-id-1552774237438-9"></div>
+            
+            
+            <div data-silex-type="container-element" class="editable-style silex-id-1424710230648 container-element hide-on-mobile" data-silex-id="silex-id-1424710230648" style="">
+                
+                
+                <div data-silex-type="container-element" class="editable-style container-element silex-id-1434634286306-0 editable-plugin-created" data-silex-id="silex-id-1434634286306-0" style="">
+
+                    
+                <div data-silex-type="text-element" class="editable-style text-element silex-id-1434425184890-0 nav-element nav" data-silex-id="silex-id-1434425184890-0" style="" data-silex-href="#!page-moi">
+                        <div class="silex-element-content normal"><a href="#!page-moi" class="">MOI</a></div>
+                    </div></div>
+                
+            <div data-silex-type="container-element" class="editable-style container-element silex-id-1434634331833-2 editable-plugin-created" data-silex-id="silex-id-1434634331833-2" style="">
+
+                    
+                <div data-silex-type="text-element" class="editable-style text-element silex-id-1434634331834-3 nav-element nav" data-silex-id="silex-id-1434634331834-3" style="" data-silex-href="#!page-info">
+                        <div class="silex-element-content normal"><a href="#!page-info" class="">INFO</a></div>
+                    </div>﻿</div><div data-silex-type="text-element" class="editable-style text-element silex-id-1424710332527 nav-element nav" data-silex-id="silex-id-1424710332527" style="" data-silex-href="#!page-home">
+                        <div class="silex-element-content normal"><a href="#!page-home" class="">
+                            HOME
+                        </a></div>
+                    </div><div data-silex-type="text-element" class="editable-style text-element silex-id-1577114028335-15 nav-element nav" data-silex-id="silex-id-1577114028335-15" style="" data-silex-href="#!page-concurence">
+                        <div class="silex-element-content normal"><a href="#!page-concurence" class="">CONCURRENCE</a></div>
+                    </div></div>
+        <div data-silex-type="image-element" class="editable-style silex-id-1577096268145-10 image-element" data-silex-id="silex-id-1577096268145-10" style=""><img src="../../../../dropbox/get/site_l%C3%A9a/Image2.png" class="silex-element-content"></div></div>
+    ﻿</div>
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1484949486466-5 section-element page-home paged-element prevent-resizable website-min-width" data-silex-id="silex-id-1484949486466-5">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949486465-4 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949486465-4" style="">
+            
+            
+            
+            
+            
+            
+        <div data-silex-type="image-element" class="editable-style silex-id-1577093796173-3 image-element page-home paged-element" data-silex-id="silex-id-1577093796173-3" style=""><img src="https://images.unsplash.com/photo-1453824943068-95a30afe74c1?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM0Nzl9" class="silex-element-content"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1424920356950 page-home paged-element paragraph" data-silex-id="silex-id-1424920356950" style="">
+                <div class="silex-element-content normal">
+                     <p><b>POURQUOI ?</b></p><p>
+
+
+
+
+
+
+
+
+
+
+QUELLE RIPOSTE ?
+
+
+
+
+
+</p><p>
+
+
+
+
+
+
+
+
+
+
+</p><p>Contribuer
+à faire perdurer la tradition de la distillation artisanale et locale.</p><p>
+
+</p><p>Créer,
+inventer, élaborer une gamme de <b>SPIRITUEUX</b> respectueux de la nature, et de l’homme.</p><p>
+
+</p><p>Permettre
+une consommation locale et raisonnée.</p><p>
+
+</p><p>Participer
+à élargir les possibles des découvertes gustatives et des expérimentations mixologiques…</p>
+
+
+
+
+
+
+                    
+                </div>
+            </div><div data-silex-type="image-element" class="editable-style silex-id-1577095949325-7 image-element page-home paged-element" data-silex-id="silex-id-1577095949325-7" style=""><img src="https://images.unsplash.com/photo-1445140463371-d8036feedc2f?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM0Nzl9" class="silex-element-content"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1424921460631 page-home paged-element paragraph" data-silex-id="silex-id-1424921460631" style="">
+                <div class="silex-element-content normal">
+                    <h2>PRODUITS&nbsp;&nbsp;</h2><h2>&nbsp; &nbsp;<br></h2>
+                    <h3>
+
+
+
+
+
+
+
+
+
+
+<p>DES SPIRITUEUX DE QUALITE</p>
+
+
+
+
+
+</h3>
+                </div>
+            </div><div data-silex-type="image-element" class="editable-style silex-id-1577096055137-8 image-element page-home paged-element" data-silex-id="silex-id-1577096055137-8" style=""><img src="../../../../dropbox/get/site_l%C3%A9a/logo.png" class="silex-element-content"></div><div data-silex-type="text-element" class="editable-style silex-id-1434426151026-1 text-element page-home paged-element paragraph" data-silex-id="silex-id-1434426151026-1" style="">
+                <div class="silex-element-content normal">
+                    <p>
+
+
+
+
+
+
+
+
+
+
+•Distillation
+artisanale :                         &nbsp; Quantités maîtrisées</p><p>•Maîtrise
+complète du process de fabrication :&nbsp;              Chaque étape est soignée</p><p>•Matières
+premières locales de qualité :&nbsp;&nbsp;           Sélection minutieuse en Rhône Alpes&nbsp;</p><p>&nbsp;•Exprimer
+le meilleur de chaque végétal&nbsp; :&nbsp;                Productions millésimées&nbsp;</p><p>&nbsp;•Produit
+de dégustation : &nbsp;                    Authenticité, caractère, plaisir&nbsp;</p><p>&nbsp;•Certifications
+agriculture biologique :</p>
+                </div>
+            </div><div data-silex-type="image-element" class="editable-style silex-id-1577093688504-2 image-element page-home paged-element" data-silex-id="silex-id-1577093688504-2" style=""><img src="https://images.unsplash.com/photo-1453824979084-c8fd42932378?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjM0Nzl9" class="silex-element-content"></div></div>
+    </div>
+
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1484949640479-7 section-element paged-element prevent-resizable page-moi website-min-width" data-silex-id="silex-id-1484949640479-7">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949640479-6 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949640479-6" style="">
+            
+            
+            
+            
+            
+        <div data-silex-type="image-element" class="editable-style silex-id-1577102976628-16 image-element" data-silex-id="silex-id-1577102976628-16" style=""><img src="../../../../dropbox/get/site_l%C3%A9a/photo_l%C3%A9a.jpg" class="silex-element-content"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1434426485665-3 paragraph" data-silex-id="silex-id-1434426485665-3" style="">
+                <div class="silex-element-content normal">
+                    <p>blabla</p>
+                </div>
+            ﻿﻿﻿</div><div data-silex-type="html-element" class="editable-style silex-id-1577103031504-17 html-element silex-component silex-component-skill-bars" data-silex-id="silex-id-1577103031504-17" style=""><div class="silex-element-content">
+  <div class="skillbar clearfix " data-percent="100%">
+    <div class="skillbar-title" style="background: #6adcfa;"><span>formation de basse</span></div>
+    <div class="skillbar-bar" style="background-color: rgb(106, 220, 250); width: 50px; overflow: hidden;"></div>
+    <div class="skill-bar-percent">Good</div>
+  </div>
+
+  <div class="skillbar clearfix " data-percent="100%">
+    <div class="skillbar-title" style="background: #6adcfa;"><span>volonté</span></div>
+    <div class="skillbar-bar" style="background-color: rgb(106, 220, 250); width: 50px; overflow: hidden;"></div>
+    <div class="skill-bar-percent">Good</div>
+  </div>
+
+  <div class="skillbar clearfix " data-percent="50%">
+    <div class="skillbar-title" style="background: #6adcfa;"><span>connaissance de entrepreneuriat </span></div>
+    <div class="skillbar-bar" style="background-color: rgb(106, 220, 250); width: 25px; overflow: hidden;"></div>
+    <div class="skill-bar-percent">en cours </div>
+  </div>
+
+<style type="text/css">.skillbar {position: relative; display: block; margin-bottom: 15px; width: 100%; background: #eee; height: 35px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -webkit-transition: 0.4s linear; -moz-transition: 0.4s linear; -ms-transition: 0.4s linear; -o-transition: 0.4s linear; transition: 0.4s linear; -webkit-transition-property: width, background-color; -moz-transition-property: width, background-color; -ms-transition-property: width, background-color; -o-transition-property: width, background-color; transition-property: width, background-color;}.skillbar-title {position: relative; float: left; width: 50%; font-weight: bold; font-size: 13px; color: #ffffff; background: #6adcfa; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}.skillbar-title span {display: block; text-align: center; background: rgba(0, 0, 0, 0.1); height: 35px; line-height: 35px; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; border-top-left-radius: 3px; border-bottom-left-radius: 3px;}.skillbar-bar {float: left; height: 35px; width: 0px; border-radius: 0 3px 3px 0; -moz-border-radius: 0 3px 3px 0; -webkit-border-radius: 0 3px 3px 0;}.skill-bar-percent {position: absolute; right: 10px; top: 0; font-size: 11px; height: 35px; line-height: 35px; color: rgba(0, 0, 0, 0.4);}</style>
+<script type="text/javascript">
+  var fillBarSize = $('.skillbar').width() * (1 - 50 / 100);
+  var doc = $(document);
+  doc.scroll(function() {
+    var skillbars = $('.skillbar');
+    // Start animation when the skillbars hit the middle of the screen
+    if (skillbars.offset().top <= (doc.scrollTop() + $(window).height()/2)) {
+      $('.skillbar').each(function(){
+        $(this).find('.skillbar-bar').delay(500).animate({
+          width: (fillBarSize * parseInt($(this).attr('data-percent')) / 100) + 'px'
+        },5998);
+      });
+    }
+  });
+</script>
+</div></div></div>
+    </div>
+    
+    
+
+
+
+
+<div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1538167171167-15 section-element paged-element page-info prevent-resizable" data-silex-id="silex-id-1538167171167-15"><div data-silex-type="container-element" class="editable-style silex-id-1538167171162-14 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1538167171162-14" style=""><div data-silex-type="html-element" class="editable-style silex-id-1577109778230-4 html-element silex-component silex-component-form silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1577109778230-4" style=""><div class="silex-element-content"><form id="id_1577110229829_576" action="https://formspree.io/david.wehrung@lilo.org" method="POST">
+  
+  <div>
+    <label for="field1">Votre Nom et  Prénom</label>
+    <input type="text" required="" id="field1" name="field1" placeholder="Nom / Prénom">
+  </div>
+  
+  
+  <div>
+    <label for="field2">Votre adresse mail</label>
+    <input type="text" required="" id="field2" name="field2" placeholder="your@email.com">
+  </div>
+  
+  
+  <div class="fill-vertical">
+    <label for="field3">Votre Message</label>
+    <textarea required="" id="field3" name="field3" placeholder="Je suis à votre écoute "></textarea>
+  </div>
+  
+  <input type="submit" value="Envoyer">
+</form>
+<style>#id_1577110229829_576 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1577110229829_576 input[type=submit] {width: 100%; background-color: #4CAF50; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #4CAF50; border-radius: 3px; cursor: pointer;}#id_1577110229829_576 label {color: #000000;}#id_1577110229829_576 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1577110229829_576 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1577110229829_576 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+
+</div></div><div data-silex-type="html-element" class="editable-style silex-id-1577110297509-5 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1577110297509-5" style=""><div class="silex-element-content"><div id="mapdiv_1577110561481_137"><div class="ol-viewport" data-view="108" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" width="400" height="400" style="width: 100%; height: 100%; display: block;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed"><ul><li style=""><a href="https://openlayers.org/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAHGAAABxgEXwfpGAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAhNQTFRF////AP//AICAgP//AFVVQECA////K1VVSbbbYL/fJ05idsTYJFtbbcjbJllmZszWWMTOIFhoHlNiZszTa9DdUcHNHlNlV8XRIVdiasrUHlZjIVZjaMnVH1RlIFRkH1RkH1ZlasvYasvXVsPQH1VkacnVa8vWIVZjIFRjVMPQa8rXIVVkXsXRsNveIFVkIFZlIVVj3eDeh6GmbMvXH1ZkIFRka8rWbMvXIFVkIFVjIFVkbMvWH1VjbMvWIFVlbcvWIFVla8vVIFVkbMvWbMvVH1VkbMvWIFVlbcvWIFVkbcvVbMvWjNPbIFVkU8LPwMzNIFVkbczWIFVkbsvWbMvXIFVkRnB8bcvW2+TkW8XRIFVkIlZlJVloJlpoKlxrLl9tMmJwOWd0Omh1RXF8TneCT3iDUHiDU8LPVMLPVcLPVcPQVsPPVsPQV8PQWMTQWsTQW8TQXMXSXsXRX4SNX8bSYMfTYcfTYsfTY8jUZcfSZsnUaIqTacrVasrVa8jTa8rWbI2VbMvWbcvWdJObdcvUdszUd8vVeJaee87Yfc3WgJyjhqGnitDYjaarldPZnrK2oNbborW5o9bbo9fbpLa6q9ndrL3ArtndscDDutzfu8fJwN7gwt7gxc/QyuHhy+HizeHi0NfX0+Pj19zb1+Tj2uXk29/e3uLg3+Lh3+bl4uXj4ufl4+fl5Ofl5ufl5ujm5+jmySDnBAAAAFp0Uk5TAAECAgMEBAYHCA0NDg4UGRogIiMmKSssLzU7PkJJT1JTVFliY2hrdHZ3foSFhYeJjY2QkpugqbG1tre5w8zQ09XY3uXn6+zx8vT09vf4+Pj5+fr6/P39/f3+gz7SsAAAAVVJREFUOMtjYKA7EBDnwCPLrObS1BRiLoJLnte6CQy8FLHLCzs2QUG4FjZ5GbcmBDDjxJBXDWxCBrb8aM4zbkIDzpLYnAcE9VXlJSWlZRU13koIeW57mGx5XjoMZEUqwxWYQaQbSzLSkYGfKFSe0QMsX5WbjgY0YS4MBplemI4BdGBW+DQ11eZiymfqQuXZIjqwyadPNoSZ4L+0FVM6e+oGI6g8a9iKNT3o8kVzNkzRg5lgl7p4wyRUL9Yt2jAxVh6mQCogae6GmflI8p0r13VFWTHBQ0rWPW7ahgWVcPm+9cuLoyy4kCJDzCm6d8PSFoh0zvQNC5OjDJhQopPPJqph1doJBUD5tnkbZiUEqaCnB3bTqLTFG1bPn71kw4b+GFdpLElKIzRxxgYgWNYc5SCENVHKeUaltHdXx0dZ8uBI1hJ2UUDgq82CM2MwKeibqAvSO7MCABq0wXEPiqWEAAAAAElFTkSuQmCC"></a></li><li>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;" data-view="3"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;" data-view="3"><canvas class="ol-unselectable" style="width: 100%; height: 100%;" width="400" height="400"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style=""><ul><li style=""><a href="https://openlayers.org/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAHGAAABxgEXwfpGAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAhNQTFRF////AP//AICAgP//AFVVQECA////K1VVSbbbYL/fJ05idsTYJFtbbcjbJllmZszWWMTOIFhoHlNiZszTa9DdUcHNHlNlV8XRIVdiasrUHlZjIVZjaMnVH1RlIFRkH1RkH1ZlasvYasvXVsPQH1VkacnVa8vWIVZjIFRjVMPQa8rXIVVkXsXRsNveIFVkIFZlIVVj3eDeh6GmbMvXH1ZkIFRka8rWbMvXIFVkIFVjIFVkbMvWH1VjbMvWIFVlbcvWIFVla8vVIFVkbMvWbMvVH1VkbMvWIFVlbcvWIFVkbcvVbMvWjNPbIFVkU8LPwMzNIFVkbczWIFVkbsvWbMvXIFVkRnB8bcvW2+TkW8XRIFVkIlZlJVloJlpoKlxrLl9tMmJwOWd0Omh1RXF8TneCT3iDUHiDU8LPVMLPVcLPVcPQVsPPVsPQV8PQWMTQWsTQW8TQXMXSXsXRX4SNX8bSYMfTYcfTYsfTY8jUZcfSZsnUaIqTacrVasrVa8jTa8rWbI2VbMvWbcvWdJObdcvUdszUd8vVeJaee87Yfc3WgJyjhqGnitDYjaarldPZnrK2oNbborW5o9bbo9fbpLa6q9ndrL3ArtndscDDutzfu8fJwN7gwt7gxc/QyuHhy+HizeHi0NfX0+Pj19zb1+Tj2uXk29/e3uLg3+Lh3+bl4uXj4ufl4+fl5Ofl5ufl5ujm5+jmySDnBAAAAFp0Uk5TAAECAgMEBAYHCA0NDg4UGRogIiMmKSssLzU7PkJJT1JTVFliY2hrdHZ3foSFhYeJjY2QkpugqbG1tre5w8zQ09XY3uXn6+zx8vT09vf4+Pj5+fr6/P39/f3+gz7SsAAAAVVJREFUOMtjYKA7EBDnwCPLrObS1BRiLoJLnte6CQy8FLHLCzs2QUG4FjZ5GbcmBDDjxJBXDWxCBrb8aM4zbkIDzpLYnAcE9VXlJSWlZRU13koIeW57mGx5XjoMZEUqwxWYQaQbSzLSkYGfKFSe0QMsX5WbjgY0YS4MBplemI4BdGBW+DQ11eZiymfqQuXZIjqwyadPNoSZ4L+0FVM6e+oGI6g8a9iKNT3o8kVzNkzRg5lgl7p4wyRUL9Yt2jAxVh6mQCogae6GmflI8p0r13VFWTHBQ0rWPW7ahgWVcPm+9cuLoyy4kCJDzCm6d8PSFoh0zvQNC5OjDJhQopPPJqph1doJBUD5tnkbZiUEqaCnB3bTqLTFG1bPn71kw4b+GFdpLElKIzRxxgYgWNYc5SCENVHKeUaltHdXx0dZ8uBI1hJ2UUDgq82CM2MwKeibqAvSO7MCABq0wXEPiqWEAAAAAElFTkSuQmCC"></a></li><li>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;" data-view="3"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+<style>#mapdiv_1577110561481_137 {width: 100%; height: 100%;}</style>
+<script type="text/javascript">
+
+
+function init_1577110561481_137() {
+    if(!$('body').hasClass('silex-runtime') && typeof(ol) === 'undefined') {
+        // wait for dependencies to be loaded
+        setTimeout(init_1577110561481_137, 100);
+        return;
+    }
+
+    // apply position and zoom
+    // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
+    // var params = 'https://www.openstreetmap.org/#map=18/45.02386/5.13677&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)&layers=(.)/);
+    var params = 'https://www.openstreetmap.org/#map=18/45.02386/5.13677&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)/);
+    if(params) {
+        var zoom = parseFloat(params[1]);
+        var lat = parseFloat(params[2]);
+        var lon = parseFloat(params[3]);
+        // var layer = params[4] || 'S';
+        var center = ol.proj.fromLonLat([lon, lat]);
+        var map = new ol.Map({
+          layers: [
+            new ol.layer.Tile({
+              source: new ol.source.OSM()
+            })
+          ],
+          target: 'mapdiv_1577110561481_137',
+          view: new ol.View({
+            center: center,
+            zoom: zoom
+          })
+        });
+        
+        var iconFeature = new ol.Feature({
+            geometry: new ol.geom.Point(center)
+        });
+        var vectorSource = new ol.source.Vector({
+            features: [iconFeature]
+        });
+        var vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+        var iconStyle = new ol.style.Style({
+            image: new ol.style.Icon(({
+                anchor: [0.5, 1],
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'fraction',
+                opacity: 1,
+                src: 'https://openlayers.org/en/v4.0.1/examples/data/icon.png'
+            }))
+        });
+        iconFeature.setStyle(iconStyle);
+        map.addLayer(vectorLayer);
+        
+    }
+}
+init_1577110561481_137();
+$(document).on('silex.resize', function() {
+    $('#mapdiv_1577110561481_137').empty();
+    init_1577110561481_137();
+});
+
+</script>
+</div></div></div></div><div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1538167211265-17 section-element prevent-resizable" data-silex-id="silex-id-1538167211265-17"></div>
+
+<div data-silex-type="container-element" class="prevent-draggable prevent-resizable container-element editable-style silex-id-1577102651651-13 section-element page-home paged-element" data-silex-id="silex-id-1577102651651-13"><div data-silex-type="container-element" class="editable-style silex-id-1577102651587-12 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1577102651587-12" style=""></div></div><div data-silex-type="container-element" class="prevent-draggable prevent-resizable container-element editable-style silex-id-1577117212731-22 section-element page-buisines paged-element" data-silex-id="silex-id-1577117212731-22"><div data-silex-type="container-element" class="editable-style silex-id-1577117212673-21 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1577117212673-21" style=""></div></div><div data-silex-type="container-element" class="prevent-draggable prevent-resizable container-element editable-style silex-id-1577122950851-25 section-element page-concurence paged-element" data-silex-id="silex-id-1577122950851-25"><div data-silex-type="container-element" class="editable-style silex-id-1577122950698-24 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1577122950698-24" style=""><div data-silex-type="html-element" class="editable-style silex-id-1577122970214-26 html-element silex-component silex-component-slideshow silex-use-height-not-minheight" data-silex-id="silex-id-1577122970214-26" style=""><div class="silex-element-content"><div id="parent_1577123083391_382">
+<!-- preview -->
+<div class="prodotype-preview">
+  
+  <div class="preview-text prodotype-force-size"><p>~ Preview ~</p></div>
+  <figure class="slide-0">
+    <div class="slide-image prodotype-force-size">
+      
+        <figcaption>tous</figcaption>
+      
+    </div>
+  </figure>
+  
+</div>
+<div id="id_1577123083391_382">
+  <!-- runtime -->
+  <!-- the whole slideshow -->
+  <ul class="prodotype-runtime">
+  
+    <li><figure class="slide-0">
+      
+      <div class="slide-image">
+        
+          <figcaption>tous</figcaption>
+        
+      </div>
+      
+    </figure></li>
+  
+    <li><figure class="slide-1">
+      
+      <div class="slide-image">
+        
+          <figcaption>bio </figcaption>
+        
+      </div>
+      
+    </figure></li>
+  
+    <li><figure class="slide-2">
+      
+      <div class="slide-image">
+        
+          <figcaption>bio &amp;  automne</figcaption>
+        
+      </div>
+      
+    </figure></li>
+  
+  </ul>
+</div>
+</div>
+<style type="text/css">#parent_1577123083391_382 .prodotype-preview {list-style-type: none; margin: 0; padding: 0;}#parent_1577123083391_382 .prodotype-preview .preview-text {display: flex; align-items: center; justify-content: center;}#parent_1577123083391_382 .prodotype-preview .preview-text p {z-index: 1; background-color: black; color: white;}#parent_1577123083391_382 .slide-0 .slide-image {background-image: url(../../../../dropbox/get/site_l%C3%A9a/drome.png);}#parent_1577123083391_382 .slide-1 .slide-image {background-image: url(../../../../dropbox/get/site_l%C3%A9a/drome_bio.png);}#parent_1577123083391_382 .slide-2 .slide-image {background-image: url(../../../../dropbox/get/site_l%C3%A9a/drome_auto.png);}#parent_1577123083391_382 .slide-image {width: 100%; display: flex; justify-content: center; background-repeat: no-repeat; background-size: cover; background-position: 50%; align-items: flex-end;}#parent_1577123083391_382 figcaption {padding: 50px; color: white; background-color: rgba(0,0,0,0.5); width: 100%; text-align: center;}#parent_1577123083391_382 .unslider-nav {position: absolute; bottom: 10px; left: 0; right: 0; top: auto; margin: 0;}#parent_1577123083391_382 .unslider-nav ol {text-align: center;}#parent_1577123083391_382 .unslider-nav ol li.unslider-active {background: #fff; cursor: default; opacity: 1;}#parent_1577123083391_382 .unslider-nav ol li {display: inline-block; float: none; width: 6px; height: 6px; margin: 0 4px; padding: 3px; background: transparent; border-radius: 10px; overflow: hidden; text-indent: -999em; border: 2px solid #fff; cursor: pointer; opacity: .4;}#parent_1577123083391_382 .unslider-arrow {display: block; width: 32px; height: 32px; top: 50%; right: 16px; left: auto; margin-top: -16px; overflow: hidden; background: rgba(0,0,0,.2) no-repeat 50% 50%; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==); background-size: 7px 11px; border-radius: 32px; text-indent: -999em; opacity: .6; transition: opacity .2s;}#parent_1577123083391_382 .unslider-arrow.prev {left: 16px; right: auto; -ms-transform: rotate(-180deg); transform: rotate(-180deg);}</style>
+<script type="text/javascript">
+  (function() {
+    function initUnslider() {
+      // do not start in the editor (it would mess with the markup)
+      if(!$('body').hasClass('silex-runtime')) return;
+
+      var slider = $('#id_1577123083391_382').unslider({
+        'autoplay': true,
+        'speed': 750,
+        'delay': 3000,
+        'index': 0,
+        'nav': true,
+        'animation': 'horizontal',
+        'arrows': false
+      });
+      //  Listen to slide changes
+      
+      // apply element height to the images
+      var silexElement = $('#id_1577123083391_382').closest('.editable-style');
+      var elementMinHeight = silexElement.css('height');
+      var elementWidth = silexElement.css('width');
+      $('#id_1577123083391_382 li .slide-image').css({
+        'height': elementMinHeight
+      });
+      
+  }
+    initUnslider();
+  })();
+</script>
+</div></div></div></div><div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1484949434473-3 section-element prevent-resizable website-min-width footer-container" data-silex-id="silex-id-1484949434473-3">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1484949434473-2 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949434473-2" style="">
+            
+        <div data-silex-type="text-element" class="editable-style text-element silex-id-1577114229103-16 footer" data-silex-id="silex-id-1577114229103-16" style="">
+                <div class="silex-element-content normal">
+                    <p><a href="http://www.silex.me/">Powered by Silex</a>&nbsp;<a href="http://www.silex.me/">website builder</a> -&nbsp;<a href="http://www.wix.com/demone2/city-bakery">Created by Deuvid</a>&nbsp;- <a href="https://unsplash.com/">Photos from here</a>&nbsp;-
+                    <a href="http://www.colorcombos.com/color-schemes/253/ColorCombo253.html">Color palete</a></p>
+                    
+                </div>
+            </div></div>
+    </div></body></html>
